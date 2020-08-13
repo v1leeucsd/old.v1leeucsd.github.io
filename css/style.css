@@ -1,0 +1,107 @@
+/* Font Awesome Free Icon */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+	background-color: #f2f2fc;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+/*Navbar*/
+.navbar {
+	background-color: #fdf9ff;
+	border-bottom: 1px solid #e8dfec;
+}
+.navbar .navbar-brand img {
+	height: auto; 
+    width: auto; 
+    max-width: 80px; 
+    max-height: 80px;
+}
+
+.navbar .navbar-nav li a{
+	font-weight: 600;
+	color:#302e4d;
+	text-align: center;
+}
+
+.navbar .navbar-nav li a:not(.active):hover{
+	padding-top:  5px;
+	color: #ec1839;
+}
+
+
+.navbar .navbar-nav li a.active {
+	color: red !important;
+}
+
+.navbar .navbar-nav li a .fa {
+	margin-right: 5px;
+}
+
+/* Jumbotron */
+.jumbotron {
+	background-color: #f2f2fc;
+	margin-bottom: 0px;
+	margin-top: 91px;
+}
+
+
+.jumbotron .intro {
+	text-align: center;
+}
+
+.jumbotron .intro img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 8px solid black;
+}
+
+.jumbotron .intro h1 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #302e4d;
+}
+
+.jumbotron .intro p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+.jumbotron .intro .social {
+	margin-top: 25px;
+}
+
+.jumbotron .intro .social a {
+	height: 35px;
+	width: 35px;
+	background-color: #ec1839;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	color: #ffffff;
+	margin: 0 4px;
+	border-radius: 50px;
+}
+
+.jumbotron .intro .social a:hover {
+	transform: scale(1.1)
+}
+
+/*Footnote*/
+
+footer {
+	margin-top: 100px;
+}
+
